@@ -51,7 +51,7 @@ a {
 /* hamburger end */
 
 .modal-window-wrapper {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   height: 200px;
@@ -72,7 +72,7 @@ a {
 
 @media (max-width: 765px) {
   .modal-window-active {
-    transform: translateY(50px);
+    transform: translateY(100px);
   }
 }
 

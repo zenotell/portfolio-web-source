@@ -39,13 +39,31 @@ export default function Mainlayout() {
         <div className="modal-win">
           <div className="btns-wrapper">
             <ul>
-              <NavLink to="/">
+              <NavLink
+                to="/"
+                onClick={() => {
+                  setOpenModalWin(false);
+                  document.querySelector(".menu__btn").click();
+                }}
+              >
                 <li>Основаная страница 1440/360</li>
               </NavLink>
-              <NavLink to="all">
+              <NavLink
+                to="all"
+                onClick={() => {
+                  setOpenModalWin(false);
+                  document.querySelector(".menu__btn").click();
+                }}
+              >
                 <li>Страница "много о себе" 1440/360</li>
               </NavLink>
-              <NavLink to="small-all">
+              <NavLink
+                to="small-all"
+                onClick={() => {
+                  setOpenModalWin(false);
+                  document.querySelector(".menu__btn").click();
+                }}
+              >
                 <li>Страница "мало о себе" 1440/360</li>
               </NavLink>
             </ul>
