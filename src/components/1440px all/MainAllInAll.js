@@ -38,7 +38,9 @@ export default function MainAllInAll() {
                     <span>
                       <img src={telegramm_icon} alt="call-icon"></img>
                     </span>
-                    <span className="rigth-data">@b1on1kkk</span>
+                    <span className="rigth-data">
+                      <a href="https://t.me/b1on1kkk">@b1on1kkk</a>
+                    </span>
                   </li>
                 </ul>
               </div>

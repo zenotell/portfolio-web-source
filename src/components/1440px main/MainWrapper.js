@@ -38,7 +38,9 @@ export default function MainPage() {
                     <span>
                       <img src={telegramm_icon} alt="call-icon"></img>
                     </span>
-                    <span className="rigth-data">@b1on1kkk</span>
+                    <span className="rigth-data">
+                      <a href="https://t.me/b1on1kkk">@b1on1kkk</a>
+                    </span>
                   </li>
                 </ul>
               </div>
@@ -51,7 +53,7 @@ export default function MainPage() {
               <img src={logo} alt="logo"></img>
             </div>
             <div className="mobile-logo-wrapper">
-              <img src={logo} alt=""></img>
+              <img src={logo} alt="mobile-logo"></img>
             </div>
 
             <div className="about-me-text">

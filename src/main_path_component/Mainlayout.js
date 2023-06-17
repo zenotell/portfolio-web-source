@@ -10,9 +10,7 @@ export default function Mainlayout() {
     <>
       <header className="header-wrapper">
         <div className="far fa-hand-point-left"></div>
-        <span className="attention">
-          Это было сделано для удобства проверки :)
-        </span>
+        <span className="attention">Тут можно узнать чуть больше :)</span>
 
         <input id="menu__toggle" type="checkbox" />
 
@@ -46,7 +44,7 @@ export default function Mainlayout() {
                   document.querySelector(".menu__btn").click();
                 }}
               >
-                <li>Основаная страница 1440/360</li>
+                <li>Основаная страница</li>
               </NavLink>
               <NavLink
                 to="all"
@@ -55,7 +53,7 @@ export default function Mainlayout() {
                   document.querySelector(".menu__btn").click();
                 }}
               >
-                <li>Страница "много о себе" 1440/360</li>
+                <li>Страница "много обо мне"</li>
               </NavLink>
               <NavLink
                 to="small-all"
@@ -64,7 +62,7 @@ export default function Mainlayout() {
                   document.querySelector(".menu__btn").click();
                 }}
               >
-                <li>Страница "мало о себе" 1440/360</li>
+                <li>Страница "мало обо мне"</li>
               </NavLink>
             </ul>
           </div>

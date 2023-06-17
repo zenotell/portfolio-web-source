@@ -3,6 +3,15 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: unset;
+}
+
+.active li {
+  color: black !important;
+  background-color: white !important;
+}
+
 /* hamburger start*/
 #menu__toggle {
   opacity: 0;
@@ -108,7 +117,7 @@ a {
   user-select: none;
   display: inline-flex;
 
-  max-width: 300px;
+  max-width: 315px;
   padding: 10px 20px;
 
   background-color: rgba(255, 255, 255, 0.3);
@@ -116,10 +125,18 @@ a {
 
   border-radius: 20px;
   transition-duration: 300ms;
+
+  width: 100%;
 }
 
 .btns-wrapper ul li:hover {
   transition-duration: 300ms;
   color: black;
   background-color: white;
+}
+
+@media (max-width: 445px) {
+  .btns-wrapper ul li {
+    max-width: unset;
+  }
 }
