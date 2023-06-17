@@ -173,7 +173,7 @@ div.about-table-wrapper div.about-table-data-wrapper:nth-child(1) {
 }
 
 div.about-table-wrapper div.long-long:nth-of-type(3) {
-  min-height: 365px !important;
+  min-height: 388px !important;
 }
 
 .facts {
@@ -239,7 +239,7 @@ div.about-table-wrapper div.long-long:nth-of-type(3) {
   }
 
   div.about-table-wrapper div.about-table-data-wrapper:nth-of-type(3) {
-    min-height: 160px;
+    min-height: 160px !important;
   }
 
   .far,
